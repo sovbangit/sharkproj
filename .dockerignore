@@ -1,0 +1,10 @@
+.git
+DotnetCoreApiProj/Obj/
+DotnetCoreApiProj/obj/
+DotnetCoreApiProj/bin/
+DotnetCoreApiProj/Bin/
+.vs/
+.vscode/
+.dockerignore
+dockerfile
+docker-compose.yml
