@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 namespace raspiapiproj.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+   
     public class ProductController : ControllerBase
     {
         private readonly ILogger<ProductController> _logger;
@@ -15,7 +15,9 @@ namespace raspiapiproj.Controllers
             _logger = logger;
         }
 
+ 
         [HttpGet]
+        [Route("[controller]")]
         public IEnumerable<dynamic> Get()
         {
             IEnumerable<dynamic> dict =
