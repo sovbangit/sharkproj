@@ -20,7 +20,7 @@ namespace raspiapiproj
 
             var host = new WebHostBuilder()
                        .UseKestrel()
-                       .UseUrls("http://*:5000;http://localhost:5001") 
+                       .UseUrls("http://*:6000;https://localhost:6001") 
                        .UseContentRoot(Directory.GetCurrentDirectory())
                        .UseIISIntegration()
                        .UseStartup<Startup>()
